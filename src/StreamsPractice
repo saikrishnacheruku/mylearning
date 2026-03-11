@@ -1,0 +1,312 @@
+Focus:
+filter, map, forEach, count, distinct, sorted
+
+Convert a List of integers to a list of their squares.
+
+Filter even numbers from a list.
+
+Count numbers greater than 50 in a list.
+
+Convert a list of strings to uppercase.
+
+Find the first element in a list.
+
+Find any element from a list.
+
+Remove duplicate numbers from a list.
+
+Sort a list of integers.
+
+Sort a list of strings alphabetically.
+
+Get the length of each string in a list.
+
+Filter strings starting with letter "A".
+
+Count how many strings start with "S".
+
+Find the maximum number in a list.
+
+Find the minimum number in a list.
+
+Print all elements using streams.
+
+Convert list of strings to their lengths.
+
+Filter odd numbers.
+
+Find numbers divisible by 5.
+
+Skip first 3 elements in a list.
+
+Limit stream to first 5 elements.
+
+Remove null values from list.
+
+Convert list to set using streams.
+
+Convert set to list using streams.
+
+Join list of strings with comma.
+
+Find average of numbers.
+
+Find sum of numbers.
+
+Find product of numbers.
+
+Check if any number > 100.
+
+Check if all numbers > 0.
+
+Check if none match negative numbers.
+
+Filter strings with length > 5.
+
+Count distinct numbers.
+
+Sort list in reverse order.
+
+Convert list of integers to strings.
+
+Filter numbers between 10 and 50.
+
+Extract first character of each string.
+
+Convert list of words to lowercase.
+
+Find second highest number.
+
+Find second smallest number.
+
+Remove blank strings.
+
+Find duplicate elements.
+
+Group numbers by even and odd.
+
+Convert array to stream and print.
+
+Convert stream to array.
+
+Find longest string.
+
+Find shortest string.
+
+Get last element from list.
+
+Filter prime numbers.
+
+Find square root of numbers.
+
+Convert list to map with index.
+
+2️⃣ Medium Level (50 Questions)
+
+Focus:
+Collectors, groupingBy, mapping, flatMap, reduce
+
+Group employees by department.
+
+Count employees in each department.
+
+Find highest salary employee.
+
+Find second highest salary.
+
+Find average salary by department.
+
+Group words by length.
+
+Flatten list of lists.
+
+Find duplicate characters in string.
+
+Find frequency of characters.
+
+Find frequency of words.
+
+Find first non-repeating character.
+
+Find first repeating character.
+
+Reverse each word in sentence.
+
+Convert list of objects to map.
+
+Partition numbers into even and odd.
+
+Find top 3 maximum numbers.
+
+Find bottom 3 minimum numbers.
+
+Merge two lists and remove duplicates.
+
+Count occurrences of each element.
+
+Sort employees by salary.
+
+Sort employees by name.
+
+Find employee with longest name.
+
+Find employee with shortest name.
+
+Get names of employees earning >50k.
+
+Calculate total salary of employees.
+
+Group employees by age.
+
+Partition employees older than 30.
+
+Convert list to comma separated string.
+
+Find longest word in sentence.
+
+Find shortest word in sentence.
+
+Count vowels in string.
+
+Remove duplicate characters from string.
+
+Find intersection of two lists.
+
+Find union of two lists.
+
+Find difference of two lists.
+
+Get distinct characters in string.
+
+Convert map keys to list.
+
+Convert map values to list.
+
+Create map from list of employees.
+
+Find employees with duplicate names.
+
+Find highest number in each group.
+
+Count numbers by remainder when divided by 3.
+
+Sort map by values.
+
+Sort map by keys.
+
+Convert stream to LinkedList.
+
+Find common elements between lists.
+
+Split sentence into words using stream.
+
+Find palindromes in list.
+
+Remove numbers divisible by 3.
+
+Create frequency map of numbers.
+
+3️⃣ Hard Level (50 Questions)
+
+Focus:
+Real-world data processing and complex transformations.
+
+Find top 5 highest paid employees per department.
+
+Find department with highest average salary.
+
+Find duplicate objects based on property.
+
+Group employees by department and salary range.
+
+Flatten nested object lists.
+
+Find most frequent word in paragraph.
+
+Find second most frequent character.
+
+Find employees with same salary.
+
+Find employees hired in last 1 year.
+
+Find department with maximum employees.
+
+Find median of numbers.
+
+Find mode of numbers.
+
+Find longest substring without repeating characters.
+
+Convert list to nested map.
+
+Find top 10 frequent numbers.
+
+Merge two maps using streams.
+
+Transform list of orders into revenue per customer.
+
+Find highest transaction per user.
+
+Group orders by date.
+
+Group employees by department then by age.
+
+Find employees with same age.
+
+Calculate salary statistics (min, max, avg).
+
+Detect duplicate records in large dataset.
+
+Stream processing of log files.
+
+Find most common error code.
+
+Process CSV data using streams.
+
+Convert JSON list to grouped objects.
+
+Parallel stream performance comparison.
+
+Detect anagrams in list of words.
+
+Find pairs with sum equal to target.
+
+Find triplets with sum equal to target.
+
+Implement custom collector.
+
+Stream large file line by line.
+
+Find employees with salary > department average.
+
+Find employee with kth highest salary.
+
+Find kth smallest element.
+
+Generate Fibonacci using streams.
+
+Generate prime numbers using streams.
+
+Sliding window calculation.
+
+Calculate running average.
+
+Convert hierarchical structure to flat list.
+
+Multi-level grouping with collectors.
+
+Parallel processing of data.
+
+Sort complex objects by multiple fields.
+
+Create LRU cache using streams logic.
+
+Remove duplicates based on multiple fields.
+
+Find employees with multiple roles.
+
+Group orders by customer and product.
+
+Build search index from list of documents.
+
+Create analytics pipeline using streams.
