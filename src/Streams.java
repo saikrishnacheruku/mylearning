@@ -71,7 +71,7 @@ public class Streams {
 //        Integer res1=numbers.stream().sorted().skip(1).findFirst().orElse(0);
 //        System.out.println(res1);
 
-        List<String> words = List.of("apple", "banana", "kiwi","kavi","janana");
+     //   List<String> words = List.of("apple", "banana", "kiwi","kavi","janana");
 //
 //       String res= words.stream().min(Comparator.comparingInt(String::length)).orElse("");
 //        System.out.println(res);
@@ -80,23 +80,86 @@ public class Streams {
 //
 //        System.out.println(res);
 
-        List<Person> people = List.of(
-                new Person("Alice", 25),
-                new Person("Bob", 30),
-                new Person("Charlie", 25)
-        );
+//        List<Person> people = List.of(
+//                new Person("Alice", 25),
+//                new Person("Bob", 30),
+//                new Person("Charlie", 25)
+//        );
+//
+//        Map<Integer, List<Person>> map =
+//                people.stream()
+//                        .collect(Collectors.groupingBy(Person::getAge));
+//
+//
+//        List<Integer> list1 = List.of(1, 2, 3);
+//        List<Integer> list2 = List.of(2, 5, 6);
+//
+//        List<Integer> res=Stream.concat(list2.stream(),list1.stream()).toList();
+//        System.out.println(res);
+// 25 find longest string
+//       List<String> words = List.of("apple", "banana", "kiwi");
+//
+//        String res=words.stream().max(Comparator.comparingInt(String::length)).orElse("");
+//        System.out.println(res);
+// // 26 group a list of strings
+//           List<String> words = List.of("apple", "banana", "kiwi","kavi","janana");
+//
+//       Map<Integer,List<String>> res=    words.stream().collect(Collectors.groupingBy(String::length));
+//        System.out.println(res);
 
-        Map<Integer, List<Person>> map =
-                people.stream()
-                        .collect(Collectors.groupingBy(Person::getAge));
+        // 30 merge 2 list into single
+//        List<Integer> list1 = List.of(1, 2, 3);
+//        List<Integer> list2 = List.of(4, 5, 6);
+//
+//        List<Integer> res=Stream.concat(list2.stream(),list1.stream()).collect(Collectors.toList());
+//        System.out.println(res);
+// union of 2 lists
+//        List<Integer> list1 = List.of(1, 2, 3, 4);
+//        List<Integer> list2 = List.of(3, 4, 5, 6);
 
+      //  List<Integer> res=Stream.concat(list1.stream(),list2.stream()).distinct().toList();
 
-        List<Integer> list1 = List.of(1, 2, 3);
-        List<Integer> list2 = List.of(2, 5, 6);
+     //   System.out.println(res);
 
-        List<Integer> res=Stream.concat(list2.stream(),list1.stream()).toList();
+        // intersection of 2 list
+
+//        List<Integer> res=list1.stream().filter(x->list2.contains(x)).toList();
+//        System.out.println(res);
+//
+        // diffrence of 2 lists
+//        List<Integer> res=list1.stream().filter(x->!list2.contains(x)).toList();
+//        System.out.println(res);
+
+        List<Integer> list1 = List.of(1, 2, 3, 4,5,6,3,2,5);
+//
+//      Map<Integer,Long> res= list1.stream().collect(Collectors.groupingBy(s->s,Collectors.counting()));
+//     //   System.out.println(res);
+//
+//        String word="hello sai babu";
+//       Map<Character,Long> res1= word.chars().mapToObj(x->(char)x).collect(Collectors.groupingBy(s->s,Collectors.counting()));
+//
+//        System.out.println(res1);
+
+      //  String word="Hello Hello my name is my hello u u u";
+//       Map<String,Long> res= Arrays.stream(word.split(" ")).collect(Collectors.groupingBy(s->s,Collectors.counting())).entrySet().stream().filter(x->x.getValue()=="");
+//
+//        System.out.println(res);
+
+//        Map<Character,Long> res=   word.chars().mapToObj(x->(char)x).filter(x->"aeiou".contains(String.valueOf(x))).collect(Collectors.groupingBy(s->s,Collectors.counting()));
+//     //   System.out.println(res);
+//
+//
+//        List<Integer> reversed = list1.stream()
+//                .collect(Collectors.collectingAndThen(Collectors.toList(), list -> {
+//                    Collections.reverse(list);
+//                    return list;
+//                }));
+//
+//        System.out.println(reversed);
+
+        String  word="Hello";
+       String res= word.chars().mapToObj(x->String.valueOf((char) x)).reduce("",(a,b)->b+a);
         System.out.println(res);
-
 
 
     }
